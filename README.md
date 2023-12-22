@@ -5,13 +5,13 @@ A simple React, TypeScript, and Tailwind CSS ripple effect button component.
 ## Installation
 
 ```bash
-npm install ripplebutton
+npm install ripple-effect-button
 ```
 
 ## Usage
 
 ```es6
-import { Button, ButtonProps } from "ripplebutton";
+import { Button, ButtonProps } from "ripple-effect-button";
 
 const MyComponent: React.FC = () => {
   const buttonProps: ButtonProps = {
@@ -36,7 +36,7 @@ const MyComponent: React.FC = () => {
 - **Basic Usage**
 
 ```es6
-import { Button } from "ripplebutton";
+import { Button } from "ripple-effect-button";
 
 const MyComponent: React.FC = () => {
   return <Button>Click me</Button>;
@@ -46,7 +46,7 @@ const MyComponent: React.FC = () => {
 - **Loading State**
 
 ```es6
-import { Button } from "ripplebutton";
+import { Button } from "ripple-effect-button";
 
 const MyComponent: React.FC = () => {
   return (
