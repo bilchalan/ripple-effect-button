@@ -1,0 +1,57 @@
+{
+  "name": "ripple-effect-button",
+  "version": "1.0.0",
+  "description": "A simple react, typescript and tailwindcss ripple effect button component.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack && npm run build:css",
+    "build:css": "postcss src/ripplebutton.css -o dist/ripplebutton.css",
+    "tsc": "tsc",
+    "start": "webpack serve --mode development --open"
+  },
+  "keywords": [
+    "ripple effect",
+    "button",
+    "tailwind css button",
+    "typescript tailwind ripple effect button",
+    "react button",
+    "button variant"
+  ],
+  "author": "Monir U Zaman",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "postcss-loader": "^7.3.3",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.6",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": "^18.*",
+    "react-dom": "18.*"
+  },
+  "files": [
+    "dist"
+  ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/bilchalan/ripplebutton.git"
+  },
+  "homepage": "https://github.com/bilchalan/ripplebutton#readme"
+}
