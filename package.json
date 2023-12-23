@@ -49,9 +49,9 @@
   "files": [
     "dist"
   ],
-    "repository": {
+  "repository": {
     "type": "git",
-    "url": "https://github.com/bilchalan/ripple-effect-button.git"
+    "url": "git+https://github.com/bilchalan/ripple-effect-button.git"
   },
   "homepage": "https://github.com/bilchalan/ripple-effect-button#readme"
 }
